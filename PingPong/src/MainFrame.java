@@ -2,7 +2,7 @@
  * Created by Vasilis on 14/4/2017.
  */
 import javax.swing.*;
-import java.awt.*;
+//import java.awt.*;
 
 public class MainFrame extends JFrame {
 
