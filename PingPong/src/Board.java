@@ -12,8 +12,8 @@ public class Board extends JPanel implements KeyListener{
     public static final int WIDTH = 640;
     public static final int HEIGHT = 466;
 
-    public static final Color COLOR_BLACK = new Color(0,0,0); // Obstacle color
-    public static final Color COLOR_WHITE = new Color(255,255,255); // Closed list nodes color
+    public static final Color COLOR_BLACK = Color.BLACK;
+    public static final Color COLOR_WHITE = Color.WHITE;
 
     private Ball ball;
  
