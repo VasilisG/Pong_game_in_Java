@@ -259,17 +259,21 @@ public class Ball implements ActionListener{
                 
                 if(this.speedY > 0){
 
-                    rand = -1 + random.nextInt(3);
-                    if(rand == 0) rand += direction;
-                    if(this.speedY == 0) this.speedY = 2;
+                    rand = 1 + random.nextInt(2);
+                    //if(rand == 0) rand += direction;
                     this.speedY += rand;
+                    if(this.speedY == 0)
+                        this.speedY = rand;
+                    //this.speedY += rand;
                 }
                 else{
 
-                    rand = -1 + random.nextInt(3);
-                    if(rand == 0) rand += direction;
-                    if(this.speedY == 0) this.speedY = -2;
+                    rand = 1 + random.nextInt(2);
+                    //if(rand == 0) rand += direction;
                     this.speedY += rand;
+                    if(this.speedY == 0)
+                        this.speedY = -rand;
+                    //this.speedY += rand;
                 }
                  this.playerTouchedBall = true;
                  this.canChase = true;
@@ -290,16 +294,20 @@ public class Ball implements ActionListener{
               
                 if(this.speedY > 0){
 
-                    rand = -1 + random.nextInt(3);
-                    if(rand == 0) rand += direction;
-                    if(this.speedY == 0) this.speedY = 2;
+                    rand = 1 + random.nextInt(2);
+                    //if(rand == 0) rand += direction;
                     this.speedY += rand;
+                    if(this.speedY == 0) 
+                        this.speedY = rand;
+                    //this.speedY += rand;
                 }
                 else{
 
-                    rand = -1 + random.nextInt(3);
-                    if(rand == 0) rand += direction;
-                    if(this.speedY == 0) this.speedY = -2;
+                    rand = 1 + random.nextInt(2);
+                    //if(rand == 0) rand += direction;
+                    this.speedY += rand;
+                    if(this.speedY == 0)
+                        this.speedY = -rand;
                     this.speedY += rand;
                 }
                 this.playerTouchedBall = false;
