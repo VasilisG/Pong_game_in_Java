@@ -7,3 +7,5 @@ You can play the game using the 'UP' and 'DOWN' keys to move the paddle (platfor
 The game itself is not optimized and uses simple techniques for the graphics to be drawn.
 
 It also features basic opponent A.I.
+
+![alt text](https://github.com/VasilisG/Pong_game_in_Java/blob/master/pongThumbnail.png)
